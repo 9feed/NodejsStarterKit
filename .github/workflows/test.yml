@@ -16,6 +16,21 @@ jobs:
           - windows-latest
           - macos-latest
 
+    services:
+      postgres:
+        image: postgres
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: db_test
+        ports:
+          - 5432/tcp
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node }}
@@ -28,5 +43,8 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
+      - run: psql -f db/install.sql -U postgres
+      - run: PGPASSWORD=marcus psql -d application -f db/structure.sql -U marcus
+      - run: PGPASSWORD=marcus psql -d application -f db/data.sql -U marcus
       - run: npm ci
       - run: npm test
