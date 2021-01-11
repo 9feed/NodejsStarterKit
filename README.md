@@ -47,7 +47,7 @@
 - Linux (проверено на Fedora 30, Ubuntu 16, 18, 19 и 20, CentOS 7 и 8)
 - Postgresql 9.5 или новее (предпочтительно v11.8)
 - OpenSSL v1.1.1 или новее
-- [certbot] (https://github.com/certbot/certbot) (рекомендуется, но необязательно)
+- [certbot](https://github.com/certbot/certbot) (рекомендуется, но необязательно)
 
 ## Применение
 
@@ -61,7 +61,7 @@
 ## Помощь
 
 Задавайте вопросы на https://t.me/nodeua и публикуйте вопросы на
-[github] (https://github.com/HowProgrammingWorks/NodejsStarterKit/issues).
+[github](https://github.com/HowProgrammingWorks/NodejsStarterKit/issues).
 
 ## License
 
