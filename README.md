@@ -1,67 +1,67 @@
 # Node.js Starter Kit
 
-## Concept
+## Концепция
 
-You can begin development from this Starter Kit, but it is not for production
-usage. The purpose of this Starter Kit is to show simplicity, basic concepts,
-give structure and architecture examples. All parts of this implementation are
-optimized for readability and understanding, but not for performance and
-scalability.
-So it is good for development and education. However, for production deployment,
-you may need the [Metarhia Example App](https://github.com/metarhia/Example)
-(it will be released in the middle of July 2020). After your application is
-ready, you can easily run it in the
-[Metaserverless cloud](https://github.com/Metaserverless), an open source cloud
-platform based on [Metarhia technology stack](https://github.com/metarhia) and
-[Node.js](https://nodejs.org/en/).
+Вы можете начать разработку с этого стартового набора, но он не предназначен для производства.
+Применение. Цель этого стартового набора - показать простоту, основные концепции,
+привести примеры структуры и архитектуры. Все части этой реализации
+оптимизированы для удобочитаемости и понимания, но не для развертывания и
+масштабируемости.
+Так что это хорошо для развития и образования. Однако для производственного развертывания
+вам может понадобиться [Пример приложения Metarhia] (https://github.com/metarhia/Example)
+(он выйдет в середине июля 2020 года). После того, как ваше приложение
+готов, вы можете легко запустить его в
+[Metaserverless cloud] (https://github.com/Metaserverless), облако с открытым исходным кодом
+платформа, основанная на [стеке технологий Metarhia] (https://github.com/metarhia) и
+[Node.js] (https://nodejs.org/en/).
 
-## Feature list
+## Список возможностей
 
-- Serve API with auto-routing, HTTP(S), WS(S)
-- Server code live reload with file system watch
-- Graceful shutdown and application reload
-- Minimum code size and dependencies
-- Code sandboxing for security, dependency injection and context isolation
-- Multi-threading for CPU utilization and isolation
-- Serve multiple ports in threads
-- Serve static files with memory cache
-- Application configuration
-- Simple logger and redirection from a console
-- Database access layer (Postgresql)
-- Persistent sessions (stored in DB)
-- Unit-tests and API tests example
-- Request queue with timeout and size
-- Execution timeout and error handling
-- Layered architecture: core, domain, API, client
+- Обслуживание API с автоматической маршрутизацией, HTTP (S), WS (S)
+- Живая перезагрузка серверного кода с просмотром файловой системы
+- Изящное завершение работы и перезагрузка приложения
+- Минимальный размер кода и зависимости
+- Песочница кода для безопасности, внедрения зависимостей и изоляции контекста
+- Многопоточность для использования и изоляции ЦП
+- Обслуживать несколько портов в потоках
+- Обслуживать статические файлы с кеш-памятью
+- Конфигурация приложения
+- Простой логгер и перенаправление с консоли
+- Уровень доступа к базе данных (Postgresql)
+- Постоянные сеансы (хранятся в БД)
+- Пример модульных тестов и тестов API
+- Очередь запросов с таймаутом и размером
+- Тайм-аут выполнения и обработка ошибок
+- Многоуровневая архитектура: ядро, домен, API, клиент
 
-## Features to be implemented in the next release
+## Функции, которые будут реализованы в следующем выпуске
 
-- Load balancing for scaling
-- Prototype pollution prevention
-- Multiple IDEs support
-- Better testing
+- Балансировка нагрузки для масштабирования
+- Прототип предотвращения загрязнения
+- Поддержка нескольких IDE
+- Лучшее тестирование
 
-## Requirements
+## Требования
 
-- Node.js v12.9.0 or later (v14 preferred)
-- Linux (tested on Fedora 30, Ubuntu 16, 18, 19 and 20, CentOS 7 and 8)
-- Postgresql 9.5 or later (v11.8 preferred)
-- OpenSSL v1.1.1 or later
-- [certbot](https://github.com/certbot/certbot) (recommended but optional)
+- Node.js v12.9.0 или новее (предпочтительно v14)
+- Linux (проверено на Fedora 30, Ubuntu 16, 18, 19 и 20, CentOS 7 и 8)
+- Postgresql 9.5 или новее (предпочтительно v11.8)
+- OpenSSL v1.1.1 или новее
+- [certbot] (https://github.com/certbot/certbot) (рекомендуется, но необязательно)
 
-## Usage
+## Применение
 
-1. Fork and clone this repository (optionally subscribe to repo changes)
-2. Remove unneeded dependencies if your project doesn't require them
-3. Run `npm install` to install dependencies and generate certificate
-4. Add your license to `LICENSE` file but don't remove starter kit license
-5. Start your project by modifying this starter kit
-6. Run project with `node server.js` and stop with Ctrl+C
+1. Создайте вилку и клонируйте этот репозиторий (при желании подписаться на изменения репо)
+2. Удалите ненужные зависимости, если они не требуются вашему проекту.
+3. Запустите `npm install`, чтобы установить зависимости и сгенерировать сертификат.
+4. Добавьте свою лицензию в файл LICENSE, но не удаляйте лицензию из начального набора.
+5. Начните свой проект, изменив этот стартовый набор.
+6. Запустите проект с помощью `node server.js` и остановитесь, нажав Ctrl + C.
 
-## Help
+## Помощь
 
-Ask questions at https://t.me/nodeua and post issues on
-[github](https://github.com/HowProgrammingWorks/NodejsStarterKit/issues).
+Задавайте вопросы на https://t.me/nodeua и публикуйте вопросы на
+[github] (https://github.com/HowProgrammingWorks/NodejsStarterKit/issues).
 
 ## License
 
