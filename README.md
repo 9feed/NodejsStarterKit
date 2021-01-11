@@ -8,12 +8,12 @@
 оптимизированы для удобочитаемости и понимания, но не для развертывания и
 масштабируемости.
 Так что это хорошо для развития и образования. Однако для производственного развертывания
-вам может понадобиться [Пример приложения Metarhia] (https://github.com/metarhia/Example)
+вам может понадобиться [Пример приложения Metarhia](https://github.com/metarhia/Example)
 (он выйдет в середине июля 2020 года). После того, как ваше приложение
 готов, вы можете легко запустить его в
-[Metaserverless cloud] (https://github.com/Metaserverless), облако с открытым исходным кодом
-платформа, основанная на [стеке технологий Metarhia] (https://github.com/metarhia) и
-[Node.js] (https://nodejs.org/en/).
+[Metaserverless cloud](https://github.com/Metaserverless), облако с открытым исходным кодом
+платформа, основанная на [стеке технологий Metarhia](https://github.com/metarhia) и
+[Node.js](https://nodejs.org/en/).
 
 ## Список возможностей
 
